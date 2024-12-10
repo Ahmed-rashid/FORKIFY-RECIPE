@@ -183,3 +183,6 @@ export async function uploadRecipe(upRecipe) {
     throw err
   }
 }
+function test(){
+  console.log('hello world')
+}
