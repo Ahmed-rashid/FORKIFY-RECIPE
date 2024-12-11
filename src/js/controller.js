@@ -140,6 +140,7 @@ function init() {
   recipeView.addHandlerBookmark(bookmarkController);
   addRecipeView.addHandlerUpload(uploadController)
   hello()
+  console.log('another helloooo')
 }
 init();
 
