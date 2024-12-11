@@ -126,6 +126,10 @@ async function uploadController(data){
   
 }
 
+function hello(){
+  console.log('hello world')
+}
+
 function init() {
 
   bookmarkView.addHandlerLoad(bookmarkViewController)
@@ -135,6 +139,7 @@ function init() {
   recipeView.addHandlerUpdateServings(updateServingController)
   recipeView.addHandlerBookmark(bookmarkController);
   addRecipeView.addHandlerUpload(uploadController)
+  hello()
 }
 init();
 
